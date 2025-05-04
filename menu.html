@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makay Restaurant</title>
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body> 
+    <nav>
+        <section class="logo"><img class="logoimg" src="images/logo.JPG" alt=""></section>
+        <section class="social-icon">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="restaurant.html">Restaurant</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="Rating.html">Rating</a></li>
+        </ul>
+       </section>
+    </nav>
+    <section class="container services-con">
+        <h3 class="menu-hd">Our Menu</h3>
+        <section class="services">
+            <section class="service">
+                <h4>Breakfast</h4>
+                <img src="./images/breakfast1.jpg" alt="" srcset="">
+<!---------Toast Breakfast-->            
+                <div class="food-item-container">
+                    <div>
+                    <button class="food-item-button" onclick="toggleDropdown(1)">Toast <i class="plus">+</i></button>
+                    <div class="food-dropdown-content" id="dropdown1"> 
+                        <p>
+                          <table>
+                            <tr>
+                                <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                <td> <span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N250</button></span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N350</button></span></td> 
+                            </tr>
+                          </table>
+                        </p>
+                    </div>
+                    </div> 
+                </div>
+
+<!---------Waffles Breakfast--> 
+                <div class="food-item-container">
+                    <div>
+                    <button class="food-item-button" onclick="toggleDropdown(2)">Waffles <i class="plus">+</i></button>
+                    <div class="food-dropdown-content" id="dropdown2"> 
+                        <p>
+                          <table>
+                            <tr>
+                                <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                <td> <span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N700</button></span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N900</button></span></td> 
+                            </tr>
+                          </table>
+                        </p>
+                    </div>
+                    </div> 
+                </div> 
+
+<!---------pancake Breakfast--> 
+                <div class="food-item-container">
+                    <div>
+                    <button class="food-item-button" onclick="toggleDropdown(3)">Pancake <i class="plus">+</i></button>
+                    <div class="food-dropdown-content" id="dropdown3"> 
+                        <p>
+                          <table>
+                            <tr>
+                                <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                <td> <span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N900</button></span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N750</button></span></td> 
+                            </tr>
+                          </table>
+                        </p>
+                    </div>
+                    </div> 
+                </div>
+
+ <!---------Bread Breakfast--> 
+                <div class="food-item-container">
+                    <div>
+                    <button class="food-item-button" onclick="toggleDropdown(4)">Bread <i class="plus">+</i></button>
+                    <div class="food-dropdown-content" id="dropdown4"> 
+                        <p>
+                          <table>
+                            <tr>
+                                <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                <td> <span class="buy-button"><button class="food-buy-button"> <i class="fa fa-shopping-cart"></i>&nbsp;N200</button></span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N150</button></span></td> 
+                            </tr>
+                          </table>
+                        </p>
+                    </div>
+                    </div> 
+                </div>
+
+            </section>
+
+
+
+                    <section class="service">
+                        <h4>Lunch</h4>
+                        <img src="./images/lunch1.jpg" alt="" srcset="">
+        <!---------Jollof Lunch-->            
+                        <div class="food-item-container">
+                            <div>
+                            <button class="food-item-button" onclick="toggleDropdown(5)">Jollof Rice <i class="plus">+</i></button>
+                            <div class="food-dropdown-content" id="dropdown5"> 
+                                <p>
+                                  <table>
+                                    <tr>
+                                        <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                        <td> <span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N1000</button></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                        <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N900</button></span></td> 
+                                    </tr>
+                                  </table>
+                                </p>
+                            </div>
+                            </div> 
+                        </div>
+        
+        <!---------Fried Rice Lunch--> 
+                        <div class="food-item-container">
+                            <div>
+                            <button class="food-item-button" onclick="toggleDropdown(6)">Fried Rice <i class="plus">+</i></button>
+                            <div class="food-dropdown-content" id="dropdown6"> 
+                                <p>
+                                  <table>
+                                    <tr>
+                                        <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                        <td> <span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N900</button></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                        <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N1000</button></span></td> 
+                                    </tr>
+                                  </table>
+                                </p>
+                            </div>
+                            </div> 
+                        </div> 
+        
+        <!---------pasta--> 
+                        <div class="food-item-container">
+                            <div>
+                            <button class="food-item-button" onclick="toggleDropdown(7)">Pasta <i class="plus">+</i></button>
+                            <div class="food-dropdown-content" id="dropdown7"> 
+                                <p>
+                                  <table>
+                                    <tr>
+                                        <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                        <td> <span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N700</button></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                        <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N650</button></span></td> 
+                                    </tr>
+                                  </table>
+                                </p>
+                            </div>
+                            </div> 
+                        </div>
+        
+         <!---------Tuwo Lunch--> 
+                        <div class="food-item-container">
+                            <div>
+                            <button class="food-item-button" onclick="toggleDropdown(8)">Tuwo <i class="plus">+</i></button>
+                            <div class="food-dropdown-content" id="dropdown8"> 
+                                <p>
+                                  <table>
+                                    <tr>
+                                        <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                        <td> <span class="buy-button"><button class="food-buy-button"> <i class="fa fa-shopping-cart"></i>&nbsp;N200</button></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                        <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N150</button></span></td> 
+                                    </tr>
+                                  </table>
+                                </p>
+                            </div>
+                            </div> 
+                        </div>
+        
+                    </section>
+
+
+            <section class="service">
+                        <h4>Dinner</h4>
+                        <img src="./images/dinner.jpg" alt="" srcset="">
+        <!---------Soup dinner-->            
+                        <div class="food-item-container">
+                            <div>
+                            <button class="food-item-button" onclick="toggleDropdown(9)">Soup <i class="plus">+</i></button>
+                            <div class="food-dropdown-content" id="dropdown9"> 
+                                <p>
+                                  <table>
+                                    <tr>
+                                        <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                        <td> <span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N500</button></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                        <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N450</button></span></td> 
+                                    </tr>
+                                  </table>
+                                </p>
+                            </div>
+                            </div> 
+                        </div>
+        
+        <!---------Griled Chicken dinner--> 
+                        <div class="food-item-container">
+                            <div>
+                            <button class="food-item-button" onclick="toggleDropdown(10)">Grilled Chicken <i class="plus">+</i></button>
+                            <div class="food-dropdown-content" id="dropdown10"> 
+                                <p>
+                                  <table>
+                                    <tr>
+                                        <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                        <td> <span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N2500</button></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                        <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N3000</button></span></td> 
+                                    </tr>
+                                  </table>
+                                </p>
+                            </div>
+                            </div> 
+                        </div> 
+        
+        <!---------Fish dinner--> 
+                        <div class="food-item-container">
+                            <div>
+                            <button class="food-item-button" onclick="toggleDropdown(11)">Fish <i class="plus">+</i></button>
+                            <div class="food-dropdown-content" id="dropdown11"> 
+                                <p>
+                                  <table>
+                                    <tr>
+                                        <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                        <td> <span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N1200</button></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                        <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N1300</button></span></td> 
+                                    </tr>
+                                  </table>
+                                </p>
+                            </div>
+                            </div> 
+                        </div>
+        
+         <!---------Salad Dinner--> 
+                        <div class="food-item-container">
+                            <div>
+                            <button class="food-item-button" onclick="toggleDropdown(12)">Salad <i class="plus">+</i></button>
+                            <div class="food-dropdown-content" id="dropdown12"> 
+                                <p>
+                                  <table>
+                                    <tr>
+                                        <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                        <td> <span class="buy-button"><button class="food-buy-button"> <i class="fa fa-shopping-cart"></i>&nbsp;N700</button></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                        <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N850</button></span></td> 
+                                    </tr>
+                                  </table>
+                                </p>
+                            </div>
+                            </div> 
+                        </div>
+        
+                    </section>
+
+
+                    <section class="service">
+                        <h4>Dessert</h4>
+                        <img src="./images/dessert.jpg" alt="" srcset="">
+        <!---------Toast Breakfast-->            
+                        <div class="food-item-container">
+                            <div>
+                            <button class="food-item-button" onclick="toggleDropdown(13)">Toast <i class="plus">+</i></button>
+                            <div class="food-dropdown-content" id="dropdown13"> 
+                                <p>
+                                  <table>
+                                    <tr>
+                                        <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                        <td> <span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N250</button></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                        <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N350</button></span></td> 
+                                    </tr>
+                                  </table>
+                                </p>
+                            </div>
+                            </div> 
+                        </div>
+        
+        <!---------Waffles Breakfast--> 
+                        <div class="food-item-container">
+                            <div>
+                            <button class="food-item-button" onclick="toggleDropdown(14)">Waffles <i class="plus">+</i></button>
+                            <div class="food-dropdown-content" id="dropdown14"> 
+                                <p>
+                                  <table>
+                                    <tr>
+                                        <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                        <td> <span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N700</button></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                        <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N900</button></span></td> 
+                                    </tr>
+                                  </table>
+                                </p>
+                            </div>
+                            </div> 
+                        </div> 
+        
+        <!---------pancake Breakfast--> 
+                        <div class="food-item-container">
+                            <div>
+                            <button class="food-item-button" onclick="toggleDropdown(15)">Pancake <i class="plus">+</i></button>
+                            <div class="food-dropdown-content" id="dropdown3"> 
+                                <p>
+                                  <table>
+                                    <tr>
+                                        <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                        <td> <span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N900</button></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                        <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N750</button></span></td> 
+                                    </tr>
+                                  </table>
+                                </p>
+                            </div>
+                            </div> 
+                        </div>
+        
+         <!---------Bread Breakfast--> 
+                        <div class="food-item-container">
+                            <div>
+                            <button class="food-item-button" onclick="toggleDropdown(16)">Bread <i class="plus">+</i></button>
+                            <div class="food-dropdown-content" id="dropdown4"> 
+                                <p>
+                                  <table>
+                                    <tr>
+                                        <td> <span class="restaurant-name">Makay Restaurant</span></td>
+                                        <td> <span class="buy-button"><button class="food-buy-button"> <i class="fa fa-shopping-cart"></i>&nbsp;N200</button></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="restaurant-name">Ready Ride Restaurant</span> </td>
+                                        <td><span class="buy-button"><button class="food-buy-button"><i class="fa fa-shopping-cart"></i>&nbsp;N150</button></span></td> 
+                                    </tr>
+                                  </table>
+                                </p>
+                            </div>
+                            </div> 
+                        </div>
+        
+                    </section>
+            
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+<!-----Script for food menu drop down----->
+        <script>
+            // Define a JavaScript function called toggleDropdown that takes a tabNumber as an argument
+            function toggleDropdown(tabNumber) {
+                // Get the dropdown element with an ID based on the tabNumber
+                var dropdown = document.getElementById("dropdown" + tabNumber);
+        
+                // Check if the current display style of the dropdown is "block"
+                if (dropdown.style.display === "block") {
+                    // If it's already visible, hide it by changing the display style to "none"
+                    dropdown.style.display = "none";
+                } else {
+                    // If it's hidden, show it by changing the display style to "block"
+                    dropdown.style.display = "block";
+                }
+            }
+        </script>
+        
+</body>
+</html>
